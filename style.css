@@ -1,0 +1,46 @@
+body,html {
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+h1 {
+    background-color: rgb(149, 173, 243);
+    height: 40px;
+}
+li {
+    font-family: cursive;
+}
+hr {
+    background-color: rgb(126, 121, 121);
+}
+.grid img{
+border: 2px solid black;
+border-radius: 50px;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.origami {
+    border-radius: 20px;
+    background-color: white;
+
+    width: 310px;
+    height: 500px;
+    font-family: fantasy;
+}
+.header {
+    color: white;
+}
+.menu {
+    display: flex;
+    justify-content:space-between;
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
