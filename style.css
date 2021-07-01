@@ -16,6 +16,8 @@ hr {
     background-color: rgb(126, 121, 121);
 }
 .grid img{
+        margin: 20px;
+    padding: 20px;
 border: 2px solid black;
 border-radius: 50px;
 }
